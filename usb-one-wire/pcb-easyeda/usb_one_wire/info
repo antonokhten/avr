@@ -1,0 +1,446 @@
+{
+  "uuid": "69cbc7f9ee28f6c926e994640b12dc52",
+  "path": "Offline/usb_one_wire",
+  "name": "usb_one_wire",
+  "content": "",
+  "created_at": "2023-07-13 12:59:04",
+  "updated_at": "2023-07-18 11:01:43",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "45f336bfcca33208c01a19ac1e3e05d3",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "18fb66d77ef04bb382cecfc904c22963": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 10,
+        "34d8aecedc5642e4adc61627e155e64d": 1,
+        "6c16028888934fc7a4dacb492321f7df": 1,
+        "a4eacdcb63554cb08b3b56477817ab57": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 13,
+        "404aa9221ff94de597b8734806e7c74f": 10,
+        "5cbe824183374fac8e4c1ae848199ce3": 3,
+        "978dd86cb8f545279789152357b8a3b4": 2,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 4,
+        "a43230b7254b421eb92c705e942e99e3": 2,
+        "fe2cfb28aa454e098603449f12160acf": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "470n",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "100nF",
+          3,
+          "C0603",
+          "C3,C4,C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1nF",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "0.1u",
+          4,
+          "C0603",
+          "C6,C7,C9,C10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1N4007W",
+          4,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1,D2,D3,D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "rst",
+          1,
+          "HDR-M-2.54_1X1",
+          "J1",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "miso",
+          1,
+          "HDR-M-2.54_1X1",
+          "J2",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "mosi",
+          1,
+          "HDR-M-2.54_1X1",
+          "J3",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "sck",
+          1,
+          "HDR-M-2.54_1X1",
+          "J4",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "vbus",
+          1,
+          "HDR-M-2.54_1X1",
+          "J5",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "gnd",
+          1,
+          "HDR-M-2.54_1X1",
+          "J6",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "120uH",
+          1,
+          "L0603",
+          "L1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "LED-0603_R",
+          3,
+          "LED0603_RED",
+          "LED_STATUS,LED_STATUS1,LED_STATUS2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x1",
+          4,
+          "HDR-M-2.54_1X1",
+          "N12,N26,N27,N28",
+          {
+            "BOM_Supplier Part": "C81276",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "19c77e72422b43b59c26b9fa67af5de4",
+            "uuid": "404aa9221ff94de597b8734806e7c74f"
+          }
+        ],
+        [
+          "2N7002",
+          2,
+          "SOT-23_L2.9-W1.3-P0.95-LS2.4-BR",
+          "Q1,Q2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "2N7002,215",
+            "BOM_Supplier Part": "C65189",
+            "BOM_Paste Type": "expand",
+            "puuid": "2a819e02584e46aea9f04b619de61270",
+            "uuid": "978dd86cb8f545279789152357b8a3b4"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "5.1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "2.2k",
+          1,
+          "R0603",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "220",
+          3,
+          "R0603",
+          "R5,R12,R13",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "4.7k",
+          4,
+          "R0603",
+          "R6,R7,R10,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "47k",
+          2,
+          "R0603",
+          "R8,R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "5201-4P4C",
+          2,
+          "RJ11-TH_5201-440111",
+          "RJ1,RJ2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C3097709",
+            "BOM_Manufacturer": "EVERCOM(恒连)",
+            "BOM_Manufacturer Part": "5201-440111",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "71cc96a2e82b42eeb1c934d73f7c7b32",
+            "uuid": "a43230b7254b421eb92c705e942e99e3"
+          }
+        ],
+        [
+          "ATMEGA8A-MU",
+          1,
+          "QFN-32_L5.0-W5.0-P0.50-BL-EP3.4",
+          "U1",
+          {
+            "BOM_Supplier Part": "C68004",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP(美国微芯)",
+            "BOM_Manufacturer Part": "ATMEGA8A-MU",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "271ed3efd93a4b1b8736bdb235a17fda",
+            "uuid": "18fb66d77ef04bb382cecfc904c22963"
+          }
+        ],
+        [
+          "GT-USB-7010ASV",
+          1,
+          "USB-C-SMD_G-SWITCH_GT-USB-7010ASV",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2988369",
+            "BOM_Manufacturer": "G-Switch(品赞)",
+            "BOM_Manufacturer Part": "GT-USB-7010ASV",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "caf563d042f1413fb354671641f0b2b6",
+            "uuid": "34d8aecedc5642e4adc61627e155e64d"
+          }
+        ],
+        [
+          "CP2102-GMR-YJLTY",
+          1,
+          "QFN-28_L5.0-W5.0-P0.50-TL-EP3.2-1",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900001031",
+            "BOM_Manufacturer": "null",
+            "BOM_Manufacturer Part": "CP2102-GMR-YJLTY",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "5e414fc024e14a31b9a18a76acebb60e",
+            "uuid": "6c16028888934fc7a4dacb492321f7df"
+          }
+        ],
+        [
+          "DT-12.000MHZ-HC-49S",
+          1,
+          "OSC-SMD_2P-L11.4-W4.7-LS12.3",
+          "X1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900005380",
+            "BOM_Manufacturer Part": "DT-12.000MHZ-HC-49S",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "84ac8e89de964e5bb530c7723fccab03",
+            "uuid": "fe2cfb28aa454e098603449f12160acf"
+          }
+        ]
+      ],
+      "updateTime": 1689591116,
+      "createTime": 1689227944,
+      "histories": [],
+      "created_at": "2023-07-13 12:59:04",
+      "updated_at": "2023-07-17 17:51:56"
+    },
+    {
+      "uuid": "a7918085cc792dca0c070ab66c2546b9",
+      "puuid": "69cbc7f9ee28f6c926e994640b12dc52",
+      "title": "PCB_usb_one_wire_2",
+      "filename": "PCB_usb_one_wire_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "19c77e72422b43b59c26b9fa67af5de4": 10,
+        "f8151fdc728a41ebbc304e11d39e5437": 10,
+        "60a676d313ae48718a81c380b73dfe4f": 4,
+        "1f261cf72cb1479ca32177c31156ede3": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 3,
+        "2a819e02584e46aea9f04b619de61270": 2,
+        "398691f1f785460098bbe5ee6590333c": 13,
+        "71cc96a2e82b42eeb1c934d73f7c7b32": 2,
+        "271ed3efd93a4b1b8736bdb235a17fda": 1,
+        "caf563d042f1413fb354671641f0b2b6": 1,
+        "5e414fc024e14a31b9a18a76acebb60e": 1,
+        "84ac8e89de964e5bb530c7723fccab03": 1
+      },
+      "BOM": [],
+      "updateTime": 1689652903,
+      "createTime": 1689578326,
+      "histories": [],
+      "created_at": "2023-07-17 14:18:46",
+      "updated_at": "2023-07-18 11:01:43"
+    }
+  ],
+  "sort": [],
+  "title": "usb_one_wire",
+  "foldername": "usb_one_wire",
+  "schfilename": "usb_one_wire.json",
+  "schfilemtime": 1689591116903
+}
